@@ -1,0 +1,49 @@
+{
+  "name": "wp-import-csv",
+  "version": "1.1.2",
+  "description": "WP Plugin for import CSV in CPT, based on WP Reactivate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress --colors --watch --mode=development",
+    "prod": "webpack --progress --colors -p --config webpack.config.js --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/6real/wp-import-csv.git"
+  },
+  "keywords": [
+    "wordpress",
+    "react",
+    "plugin",
+    "webpack"
+  ],
+  "author": "6Real",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/6real"
+  },
+  "homepage": "https://github.com/6real/wp-import-csv#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "@wordpress/components": "^9.0.0",
+    "@wordpress/element": "^2.20.3",
+    "axios": "^0.21.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-papaparse": "^3.16.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-react": "^7.14.5",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.2.2",
+    "eslint": "^5.6.1",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-react": "^7.24.0",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.1.2"
+  }
+}
