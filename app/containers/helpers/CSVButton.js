@@ -67,8 +67,6 @@ const CSVButton = () => {
                 alert(error)
             });
     }
-
-    // Markup of CSV button
     return (
         <>
             <h2>Ajouter un fichier</h2>
@@ -77,7 +75,7 @@ const CSVButton = () => {
                 <span>Glissez un CSV ici ou cliquez pour ouvrir votre fichier.</span>
             </CSVReader>
 
-            {/*Conditionnal rendering of import cta if the CSV and data is here*/}
+            {/*Conditionnal rendering of import cta if the CSV and data*/}
             {data && <Button className={"button-primary"} onClick={() => {post(data); setLoading(true)}}>
                 Importer les données
             </Button>}

@@ -37,7 +37,7 @@ class AjaxPost
         wp_die();
     }
 
-    public function sanitizer($data)
+    public function sanitizer($data): array
     {
         $sanitizedArray = [];
 

@@ -32,6 +32,7 @@ npm run prod
 for create build for production
 
 ## Files and uderstand how make modifications :
+(in French but I will translate this soon in EN)
 
 La plupart de la logique d'import  utilise une class PHP : ``class AjaxPost`` dans  ``/includes/AjaxPost.php``
 
@@ -45,7 +46,7 @@ La logique actuelle fonctionne de cette manière :
 
 4)  La function ``setImg`` est utilisé pour importer les images de la ligne du EXCEL (voir excel exemple) dans le BO. Puis met en place l'image en tant que featured_img dans le post 
 
-####Si vous souhaitez modifier le front du BO du plugin (pas nécessaire car générique) : ``/app/containers/Admin.jsx`` & ``/app/containers/helpers/CSVButton.jss`` 
+####  Si vous souhaitez modifier le front du BO du plugin (pas nécessaire car générique) : ``/app/containers/Admin.jsx`` & ``/app/containers/helpers/CSVButton.jss`` 
 
 
 *Si vous avez une question à propos de ce plugin -> contact@vision-marketing.fr*
